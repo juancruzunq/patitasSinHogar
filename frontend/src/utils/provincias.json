@@ -1,0 +1,94 @@
+[
+    {
+        "value": "02",
+        "label": "Ciudad Autónoma de Buenos Aires"
+    },
+    {
+        "value": "06",
+        "label": "Buenos Aires"
+    },
+    {
+        "value": "14",
+        "label": "Córdoba"
+    },
+    {
+        "value": "10",
+        "label": "Catamarca"
+    },
+    {
+        "value": "18",
+        "label": "Corrientes"
+    },
+    {
+        "value": "22",
+        "label": "Chaco"
+    },
+    {
+        "value": "26",
+        "label": "Chubut"
+    },
+    {
+        "value": "34",
+        "label": "Formosa"
+    },
+    {
+        "value": "38",
+        "label": "Jujuy"
+    },
+    {
+        "value": "46",
+        "label": "La Rioja"
+    },
+    {
+        "value": "42",
+        "label": "La Pampa"
+    },
+    {
+        "value": "58",
+        "label": "Neuquén"
+    },
+    {
+        "value": "54",
+        "label": "Misiones"
+    },
+    {
+        "value": "50",
+        "label": "Mendoza"
+    },
+    {
+        "value": "62",
+        "label": "Río Negro"
+    },
+    {
+        "value": "70",
+        "label": "San Juan"
+    },
+    {
+        "value": "74",
+        "label": "San Luis"
+    },
+    {
+        "value": "66",
+        "label": "Salta"
+    },
+    {
+        "value": "78",
+        "label": "Santa Cruz"
+    },
+    {
+        "value": "82",
+        "label": "Santa Fe"
+    },
+    {
+        "value": "86",
+        "label": "Santiago del Estero"
+    },
+    {
+        "value": "90",
+        "label": "Tucumán"
+    },
+    {
+        "value": "94",
+        "label": "Tierra del Fuego, Antártida e Islas del Atlántico Sur"
+    }
+]

@@ -1,0 +1,17 @@
+
+.redes-redes a {
+    font-size: 35px;
+}
+.redes-redes img {
+    display: inline-block; 
+    margin-right: 10px; 
+    width: 35px;
+}
+
+.redes-element{
+    margin: 30px;
+}
+
+.redes-element a:hover{
+    background-color: rgba(133, 2, 255, 0.384);
+}

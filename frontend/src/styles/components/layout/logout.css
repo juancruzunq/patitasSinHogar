@@ -1,0 +1,18 @@
+.logout-container {
+    color: rgb(0, 0, 0);
+    margin-left: 96%;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .logout-icon {
+    margin-left: 10px;
+    margin-bottom: -3px;
+  }
+  
+  .logout-icon:hover{
+    color: aliceblue;
+  }
+  
+  

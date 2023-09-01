@@ -1,0 +1,15 @@
+header{
+background-color:rgba(132, 0, 255,0.600) ;
+background-image: url("/src/images/fondo.png");
+background-repeat: repeat-x;
+padding-bottom: 5px;
+}
+
+.header-tittle {
+    color: rgb(255, 255, 255);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+    font-weight: 100;
+    padding-top: 100px;
+    text-align: center;
+}

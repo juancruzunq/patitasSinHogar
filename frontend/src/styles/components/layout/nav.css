@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+
+.nav-container{
+    background-color: rgba(132, 0, 255, 0.432) ;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+nav ul li {
+    flex-grow: 1;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid rgb(133, 2, 255);
+    cursor: pointer;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li a {
+    color: rgb(253, 253, 253) ;
+    display: block;
+    font-family: 'Kenia', cursive;    
+    font-size: 35px;
+    text-decoration: none;       
+}
+
+nav ul.activo {
+    background-color: rgb(132, 0, 255) ;
+    
+
+}
+
+nav ul li:hover {
+    background-color: rgba(132, 0, 255,0.600) ;
+    
+}
+
+
+
+

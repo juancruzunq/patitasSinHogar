@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Concert+One&display=swap');
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .popup {
+    min-width: 400px;
+    max-width: 90%;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+   
+  }
+  
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+  }
+  
+  .green {
+    color: rgba(0, 128, 0, 0.712);
+    border: 2px solid rgba(0, 128, 0, 0.712);
+  }
+  
+  .red {
+    color: rgba(255, 0, 0, 0.637);
+    border: 2px solid rgba(255, 0, 0, 0.637);
+  }
+  
+  .popup-message {
+    font-size: 28px;
+    margin-bottom: 70px;
+    font-family: 'Concert One', cursive;
+  }
+  
+  .popup-button {  
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .green-button{
+    background-color: rgba(0, 128, 0, 0.712);
+  }
+
+  .red-button{
+    background-color: rgba(255, 0, 0, 0.637);
+  }
+
+  .green-button:hover {
+    background-color: rgba(0, 128, 0, 0.836);
+  }
+  
+  .red-button:hover {
+    background-color: rgba(255, 0, 0, 0.836);
+  }

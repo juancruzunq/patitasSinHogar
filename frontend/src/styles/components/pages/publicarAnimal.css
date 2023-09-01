@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Concert+One&display=swap');
+.custom-form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Concert One', cursive;  
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-select {
+  border: 2px solid #800080; 
+  border-radius: 5px;
+  margin-bottom: 10px;
+  
+}
+
+.image-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 80px;
+}
+
+.image-upload-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  overflow: hidden;
+}
+
+.form-label {
+  font-size: 25px;
+}
+
+.image-upload-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-upload-circle:hover {
+  background-color: #ccc;
+}
+
+.form-control {
+  background-color: transparent;
+  border: 2px solid #800080;
+  border-radius: 5px;
+  padding: 10px;
+  color: #333;
+  width: 97%;
+  margin-bottom: 10px;
+  transition: border-color 0.2s;
+}
+
+.form-control::placeholder {
+  color: #888;
+}
+
+.form-check {
+  margin-bottom: 25px;
+}
+
+.btn-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.tipo-icons {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.tipo-icon,
+.castrado-icon,
+.vacunado-icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 35px;
+  margin-bottom: 15px;
+  transition: 0.2s ease-in-out;
+}
+
+.selected {
+  color: #00cc00;
+}
+.female {
+  color: #ff69b4;
+}
+
+.male {
+  color: #1e90ff;
+}
+.castrado-icon,
+.vacunado-icon {
+  font-size: 40px;
+  transition: color 0.2s;
+}
+
+.vacunado-icon.selected,
+.castrado-icon.selected {
+  color: green;
+}
+
+.vacunado-icon:not(.selected):hover,
+.castrado-icon:not(.selected):hover {
+  color: red;
+}
+
+.btn-primary {
+  background-color: #800080;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #6a006a;
+}
+
+.btn-violet {
+  background-color: #800080;
+}
+
+.textarea {
+  resize: vertical;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.loading-spinner {
+  border: 4px solid rgba(132, 0, 255,0.600);
+  border-top: 4px solid #ffffff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+.back-button{
+  cursor: pointer;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
